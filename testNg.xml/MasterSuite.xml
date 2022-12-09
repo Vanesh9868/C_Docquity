@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <suite-files>
+  
+  <suite-file path="C:\Users\Hp\eclipse-workspace\C_com.framework1\testNg.xml\TS001_Login.xml"></suite-file>
+  
+  </suite-files>
+  
+</suite> <!-- Suite -->
