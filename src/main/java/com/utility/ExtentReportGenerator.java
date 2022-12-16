@@ -10,12 +10,12 @@ public class ExtentReportGenerator {
 	
 	public static ExtentReports getReports () {
 		
-		String path="C:\\Users\\Hp\\eclipse-workspace\\C_project1\\Reports";
+		String path="C:\\Users\\Hp\\eclipse-workspace\\C_docquity\\Reports";
 		
 		ExtentSparkReporter reporter = new ExtentSparkReporter (path);
 		
-		reporter.config().setDocumentTitle("C_com.framework1");
-		reporter.config().setReportName("Signup Module");
+		reporter.config().setDocumentTitle("C_docquity");
+		reporter.config().setReportName("Login Module");
 		reporter.config().setTheme(Theme.DARK);
 		
 		

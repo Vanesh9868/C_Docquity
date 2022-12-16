@@ -8,9 +8,8 @@
 	  <test thread-count="5" name="Test">
 	  <parameter name="BrowserName" value="FireFox"></parameter>
 	    <classes>
-	      <class name="com.test.TS001_Login"/>
-	    </classes>
+	      <class name="com.test.TS002_SignUp_Test"/>
+	    </classes>	
 	  </test> <!-- Test -->
 	  
 </suite> <!-- Suite -->
-
