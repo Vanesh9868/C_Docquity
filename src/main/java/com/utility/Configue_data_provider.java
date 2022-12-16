@@ -10,17 +10,19 @@ public class Configue_data_provider {
 	
 	public Configue_data_provider () throws IOException
 	{
-		String path = "C:\\Users\\Hp\\eclipse-workspace\\C_project1\\Configue\\configue_Login_TC001";
+		String path = "C:\\Users\\Hp\\eclipse-workspace\\C_docquity\\Configue\\configue_Login_TC001";
 		FileInputStream fis = new FileInputStream (path);
 		pro= new Properties ();
 		pro.load(fis);
 		
 	}
 	
-	public String getStageUrl ()
+	public String enterStageUrl ()
 	{
 		return pro.getProperty("StageUrl");
 	}
+
+	
 
 
 

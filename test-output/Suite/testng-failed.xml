@@ -5,18 +5,16 @@
     <listener class-name="com.utility.Listners"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
-    <parameter name="BrowserName" value="chrome"/>
+    <parameter name="BrowserName" value="FireFox"/>
     <classes>
-      <class name="com.test.TS001_Login">
+      <class name="com.test.TS002_SignUp_Test">
         <methods>
-          <include name="TC003"/>
-          <include name="TC002"/>
+          <include name="TC004"/>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="TC001"/>
           <include name="BS"/>
         </methods>
-      </class> <!-- com.test.TS001_Login -->
+      </class> <!-- com.test.TS002_SignUp_Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

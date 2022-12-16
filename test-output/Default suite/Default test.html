@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 08 23:02:22 IST 2022</td>
+<td>Started on:</td><td>Fri Dec 16 14:08:56 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (30 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (32 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,14 +75,23 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.TS001_Login.BS()'><b>BS</b><br>Test class: com.test.TS001_Login</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\C_com.framework1\Configue\configue_Login_TC001 (The system cannot find the path specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
-	at com.utility.Configue_data_provider.&lt;init&gt;(Configue_data_provider.java:14)
-	at com.utility.BaseClass.BS(BaseClass.java:24)
+<td title='com.test.TS002_SignUp_Test.BS()'><b>BS</b><br>Test class: com.test.TS002_SignUp_Test</td>
+<td><div><pre>java.lang.NoSuchFieldError: EMPTY_BYTE_ARRAY
+	at org.apache.logging.log4j.core.config.ConfigurationSource.&lt;clinit&gt;(ConfigurationSource.java:59)
+	at org.apache.logging.log4j.core.config.NullConfiguration.&lt;init&gt;(NullConfiguration.java:32)
+	at org.apache.logging.log4j.core.LoggerContext.&lt;clinit&gt;(LoggerContext.java:74)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.createContext(ClassLoaderContextSelector.java:254)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.locateContext(ClassLoaderContextSelector.java:218)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:136)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:123)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:117)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:150)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:47)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:196)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:599)
+	at org.apache.poi.ooxml.POIXMLDocumentPart.&lt;clinit&gt;(POIXMLDocumentPart.java:56)
+	at com.utility.ExcelDataProvider.&lt;init&gt;(ExcelDataProvider.java:16)
+	at com.utility.BaseClass.BS(BaseClass.java:29)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -100,14 +109,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace825936265", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace825936265'><pre>java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\C_com.framework1\Configue\configue_Login_TC001 (The system cannot find the path specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
-	at com.utility.Configue_data_provider.&lt;init&gt;(Configue_data_provider.java:14)
-	at com.utility.BaseClass.BS(BaseClass.java:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace807657332", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace807657332'><pre>java.lang.NoSuchFieldError: EMPTY_BYTE_ARRAY
+	at org.apache.logging.log4j.core.config.ConfigurationSource.&lt;clinit&gt;(ConfigurationSource.java:59)
+	at org.apache.logging.log4j.core.config.NullConfiguration.&lt;init&gt;(NullConfiguration.java:32)
+	at org.apache.logging.log4j.core.LoggerContext.&lt;clinit&gt;(LoggerContext.java:74)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.createContext(ClassLoaderContextSelector.java:254)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.locateContext(ClassLoaderContextSelector.java:218)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:136)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:123)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:117)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:150)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:47)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:196)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:599)
+	at org.apache.poi.ooxml.POIXMLDocumentPart.&lt;clinit&gt;(POIXMLDocumentPart.java:56)
+	at com.utility.ExcelDataProvider.&lt;init&gt;(ExcelDataProvider.java:16)
+	at com.utility.BaseClass.BS(BaseClass.java:29)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -127,7 +145,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.test.TS001_Login@1d9b7cce</td></tr>
+<td>com.test.TS002_SignUp_Test@dbf57b3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -137,15 +155,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.TS001_Login.setup()'><b>setup</b><br>Test class: com.test.TS001_Login</td>
+<td title='com.test.TS002_SignUp_Test.teardown()'><b>teardown</b><br>Test class: com.test.TS002_SignUp_Test</td>
 <td></td>
-<td>-1670520742</td>
-<td>com.test.TS001_Login@1d9b7cce</td></tr>
+<td>-1671179936</td>
+<td>com.test.TS002_SignUp_Test@dbf57b3</td></tr>
 <tr>
-<td title='com.test.TS001_Login.teardown()'><b>teardown</b><br>Test class: com.test.TS001_Login</td>
+<td title='com.test.TS002_SignUp_Test.setup()'><b>setup</b><br>Test class: com.test.TS002_SignUp_Test</td>
 <td></td>
-<td>-1670520742</td>
-<td>com.test.TS001_Login@1d9b7cce</td></tr>
+<td>-1671179936</td>
+<td>com.test.TS002_SignUp_Test@dbf57b3</td></tr>
+<tr>
+<td title='com.test.TS002_SignUp_Test.teardown()'><b>teardown</b><br>Test class: com.test.TS002_SignUp_Test</td>
+<td></td>
+<td>-1671179936</td>
+<td>com.test.TS002_SignUp_Test@dbf57b3</td></tr>
+<tr>
+<td title='com.test.TS002_SignUp_Test.setup()'><b>setup</b><br>Test class: com.test.TS002_SignUp_Test</td>
+<td></td>
+<td>-1671179936</td>
+<td>com.test.TS002_SignUp_Test@dbf57b3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -155,14 +183,23 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.TS001_Login.TC003()'><b>TC003</b><br>Test class: com.test.TS001_Login</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\C_com.framework1\Configue\configue_Login_TC001 (The system cannot find the path specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
-	at com.utility.Configue_data_provider.&lt;init&gt;(Configue_data_provider.java:14)
-	at com.utility.BaseClass.BS(BaseClass.java:24)
+<td title='com.test.TS002_SignUp_Test.TC004()'><b>TC004</b><br>Test class: com.test.TS002_SignUp_Test</td>
+<td><div><pre>java.lang.NoSuchFieldError: EMPTY_BYTE_ARRAY
+	at org.apache.logging.log4j.core.config.ConfigurationSource.&lt;clinit&gt;(ConfigurationSource.java:59)
+	at org.apache.logging.log4j.core.config.NullConfiguration.&lt;init&gt;(NullConfiguration.java:32)
+	at org.apache.logging.log4j.core.LoggerContext.&lt;clinit&gt;(LoggerContext.java:74)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.createContext(ClassLoaderContextSelector.java:254)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.locateContext(ClassLoaderContextSelector.java:218)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:136)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:123)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:117)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:150)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:47)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:196)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:599)
+	at org.apache.poi.ooxml.POIXMLDocumentPart.&lt;clinit&gt;(POIXMLDocumentPart.java:56)
+	at com.utility.ExcelDataProvider.&lt;init&gt;(ExcelDataProvider.java:16)
+	at com.utility.BaseClass.BS(BaseClass.java:29)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -180,14 +217,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1101184763", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1101184763'><pre>java.io.FileNotFoundException: C:\Users\Hp\eclipse-workspace\C_com.framework1\Configue\configue_Login_TC001 (The system cannot find the path specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
-	at com.utility.Configue_data_provider.&lt;init&gt;(Configue_data_provider.java:14)
-	at com.utility.BaseClass.BS(BaseClass.java:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1297836716", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1297836716'><pre>java.lang.NoSuchFieldError: EMPTY_BYTE_ARRAY
+	at org.apache.logging.log4j.core.config.ConfigurationSource.&lt;clinit&gt;(ConfigurationSource.java:59)
+	at org.apache.logging.log4j.core.config.NullConfiguration.&lt;init&gt;(NullConfiguration.java:32)
+	at org.apache.logging.log4j.core.LoggerContext.&lt;clinit&gt;(LoggerContext.java:74)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.createContext(ClassLoaderContextSelector.java:254)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.locateContext(ClassLoaderContextSelector.java:218)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:136)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:123)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:117)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:150)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:47)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:196)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:599)
+	at org.apache.poi.ooxml.POIXMLDocumentPart.&lt;clinit&gt;(POIXMLDocumentPart.java:56)
+	at com.utility.ExcelDataProvider.&lt;init&gt;(ExcelDataProvider.java:16)
+	at com.utility.BaseClass.BS(BaseClass.java:29)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -207,7 +253,79 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.test.TS001_Login@1d9b7cce</td></tr>
+<td>com.test.TS002_SignUp_Test@dbf57b3</td></tr>
+<tr>
+<td title='com.test.TS002_SignUp_Test.TC001()'><b>TC001</b><br>Test class: com.test.TS002_SignUp_Test</td>
+<td><div><pre>java.lang.NoSuchFieldError: EMPTY_BYTE_ARRAY
+	at org.apache.logging.log4j.core.config.ConfigurationSource.&lt;clinit&gt;(ConfigurationSource.java:59)
+	at org.apache.logging.log4j.core.config.NullConfiguration.&lt;init&gt;(NullConfiguration.java:32)
+	at org.apache.logging.log4j.core.LoggerContext.&lt;clinit&gt;(LoggerContext.java:74)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.createContext(ClassLoaderContextSelector.java:254)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.locateContext(ClassLoaderContextSelector.java:218)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:136)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:123)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:117)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:150)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:47)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:196)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:599)
+	at org.apache.poi.ooxml.POIXMLDocumentPart.&lt;clinit&gt;(POIXMLDocumentPart.java:56)
+	at com.utility.ExcelDataProvider.&lt;init&gt;(ExcelDataProvider.java:16)
+	at com.utility.BaseClass.BS(BaseClass.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1866875501", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1866875501'><pre>java.lang.NoSuchFieldError: EMPTY_BYTE_ARRAY
+	at org.apache.logging.log4j.core.config.ConfigurationSource.&lt;clinit&gt;(ConfigurationSource.java:59)
+	at org.apache.logging.log4j.core.config.NullConfiguration.&lt;init&gt;(NullConfiguration.java:32)
+	at org.apache.logging.log4j.core.LoggerContext.&lt;clinit&gt;(LoggerContext.java:74)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.createContext(ClassLoaderContextSelector.java:254)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.locateContext(ClassLoaderContextSelector.java:218)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:136)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:123)
+	at org.apache.logging.log4j.core.selector.ClassLoaderContextSelector.getContext(ClassLoaderContextSelector.java:117)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:150)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:47)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:196)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:599)
+	at org.apache.poi.ooxml.POIXMLDocumentPart.&lt;clinit&gt;(POIXMLDocumentPart.java:56)
+	at com.utility.ExcelDataProvider.&lt;init&gt;(ExcelDataProvider.java:16)
+	at com.utility.BaseClass.BS(BaseClass.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.TS002_SignUp_Test@dbf57b3</td></tr>
 </table><p>
 </body>
 </html>
